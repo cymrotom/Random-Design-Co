@@ -107,7 +107,7 @@ html {
 }
 
 body {
-    border: 1px solid red;
+    
 }
 
 .page-header {
@@ -118,6 +118,9 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    margin-bottom: 150px;
+    overflow: auto;
+    
   }  
 
 .page-header h1 {
@@ -134,34 +137,71 @@ body {
 
 }
 
-.title {
+.page-title {
     width: 100%;
-    background-color: #6066fb;
-}
-
-.title h2 {
-    background-color: #6066fb;
-    color: #fff;
-    font-size: 1.4em;
-    text-align: center;
-}
-
-.title h3 {
-    border: 2px solid #fff;
-    text-align: center;
-}
-.project {
-    float: left;
-    border: 1px solid red;
-    width: 50%;
-
-}
-
-.grid {
+    background-image: url("../img/purple-bg.jpeg");
     overflow: auto;
+    height: 400px;
+}
+
+.page-title h2 {
+    padding: 2.5em 0 1.4em 0;
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+    margin: auto;
+    width: 20%;
+    line-height: 1;
+}
+
+.page-title h3 {
+    margin: auto;
+    width: 15%;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+.about-us {
+    margin: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+.projects {
+    position: relative;
+    padding: 0.625em;
+}
+.project-image {
+    display: block;
+    position: relative;
+    z-index: -10;
+}
+.project-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: #fff;
+
 }
 
 
+
+
+
+
+.page-footer {
+    text-align: center;
+    clear: both;
+}
+
+
+}
 
 
 
