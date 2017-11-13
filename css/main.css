@@ -97,8 +97,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
 html {
   box-sizing: border-box;
 }
@@ -155,22 +153,24 @@ body {
 }
 
 .page-title h3 {
+    width: 10%;    
     margin: auto;
-    width: 15%;
     font-size: 1.5em;
-    padding: 10px;
     margin: auto;
     border: 2px solid #fff;
     color: #fff;
     text-align: center;
 }
 .page-title h3 a {
-    text-decoration: none;
+    display: block;    
     color: #fff;
+    text-decoration: none; 
 }
 
 .page-title h3 a:hover {
     background-color: #fff;
+    color: #000;
+	
 }
 .about-us {
     margin: 1em;
@@ -185,42 +185,26 @@ img {
 }
 
 .project-overlay {
+    width: 50%;
+    float: left;	
     
 }
 .project-image {
     display: block;
-    position: relative;
-    z-index: -10;
 }
 .project-content {
+    background-color: hsla(0, 0%, 0%,0.2);    
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-100%, -100%);
     font-weight: bold;
     color: #fff;
-
 }
-
-
-
-
-
-
 .page-footer {
     text-align: center;
     clear: both;
 }
-
-
-}
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
