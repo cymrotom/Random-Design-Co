@@ -164,6 +164,13 @@ body {
     color: #fff;
     text-align: center;
 }
+.button a {
+    text-decoration: none;
+}
+
+.button a:hover {
+    background-color: #fff;
+}
 .about-us {
     margin: 1em;
 }
