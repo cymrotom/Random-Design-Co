@@ -118,7 +118,7 @@ h5 {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 .page-header {
     background-color: #000;
@@ -194,6 +194,36 @@ img {
 .jumbotron_content .btn:hover {
     background-color: #fff;
     color: #000;
+}
+
+.project-thumb {
+    position: relative;
+    width: 50%;
+    float: left;
+    background-color: hsla(0,100%,100%, 0.5);
+    border: 1px solid white;
+
+}
+.project-thumb:hover {
+    background-color: hsla(0, 0%, 0%, 0.75);
+    color: #fff;
+}
+.project-thumb img {
+    width: 100%;
+    position: relative;
+    z-index: -10;
+}
+
+.project-thumb h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+}
+.project-thumb:hover h3 {
+    color: #fff;
 }
 .page-footer {
     text-align: center;
